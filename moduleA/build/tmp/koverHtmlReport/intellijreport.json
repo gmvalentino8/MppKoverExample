@@ -1,0 +1,25 @@
+{
+  "reports": [ 
+        {"ic": "/Users/marcovalentino/Developer/MppKoverExample/moduleA/build/kover/testDebugUnitTest.ic"},
+        {"ic": "/Users/marcovalentino/Developer/MppKoverExample/moduleA/build/kover/testReleaseUnitTest.ic"}
+    ], 
+  "html": "/Users/marcovalentino/Developer/MppKoverExample/moduleA/build/reports/kover/project-html",
+  "modules": [
+    {
+      "output": [
+        "/Users/marcovalentino/Developer/MppKoverExample/moduleA/build/intermediates/javac/release/classes",
+        "/Users/marcovalentino/Developer/MppKoverExample/moduleA/build/intermediates/javac/debug/classes",
+        "/Users/marcovalentino/Developer/MppKoverExample/moduleA/build/tmp/kotlin-classes/release",
+        "/Users/marcovalentino/Developer/MppKoverExample/moduleA/build/tmp/kotlin-classes/debugUnitTest",
+        "/Users/marcovalentino/Developer/MppKoverExample/moduleA/build/tmp/kotlin-classes/debug",
+        "/Users/marcovalentino/Developer/MppKoverExample/moduleA/build/tmp/kotlin-classes/releaseUnitTest"
+      ],
+      "sources": [
+        "/Users/marcovalentino/Developer/MppKoverExample/moduleA/src/commonMain/kotlin",
+        "/Users/marcovalentino/Developer/MppKoverExample/moduleA/src/androidMain/kotlin",
+        "/Users/marcovalentino/Developer/MppKoverExample/moduleA/src/androidTest/kotlin",
+        "/Users/marcovalentino/Developer/MppKoverExample/moduleA/src/commonTest/kotlin"
+      ]
+    }
+  ]
+}

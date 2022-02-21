@@ -1,0 +1,2 @@
+io/github/gmvalentino8/moduleB/BuildConfig.java
+ io.github.gmvalentino8.moduleB.BuildConfig

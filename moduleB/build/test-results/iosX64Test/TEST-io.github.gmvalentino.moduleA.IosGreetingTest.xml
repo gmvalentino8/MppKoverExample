@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="IosGreetingTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2022-02-16T20:55:31" hostname="LAB-N2007.toshima.ne.jp" time="0.274">
+  <properties/>
+  <testcase name="testExample[iosX64]" classname="io.github.gmvalentino.moduleA.IosGreetingTest" time="0.274">
+    <failure message="kotlin.AssertionError: Check iOS is mentioned" type="kotlin.AssertionError">kotlin.AssertionError: Check iOS is mentioned
+	at kotlin.Throwable#&lt;init&gt;(/Users/teamcity1/teamcity_work/6326934d18cfe24e/kotlin/kotlin-native/runtime/src/main/kotlin/kotlin/Throwable.kt:24)
+	at kotlin.Error#&lt;init&gt;(/Users/teamcity1/teamcity_work/6326934d18cfe24e/kotlin/kotlin-native/runtime/src/main/kotlin/kotlin/Exceptions.kt:12)
+	at kotlin.AssertionError#&lt;init&gt;(/Users/teamcity1/teamcity_work/6326934d18cfe24e/kotlin/kotlin-native/runtime/src/main/kotlin/kotlin/Exceptions.kt:128)
+	at kotlin.test.DefaultAsserter#fail(/Users/teamcity1/teamcity_work/6326934d18cfe24e/kotlin/libraries/kotlin.test/common/src/main/kotlin/kotlin/test/DefaultAsserter.kt:16)
+	at kotlin.test.Asserter#assertTrue(/Users/teamcity1/teamcity_work/6326934d18cfe24e/kotlin/libraries/kotlin.test/common/src/main/kotlin/kotlin/test/Assertions.kt:648)
+	at kotlin.test.Asserter#assertTrue(/Users/teamcity1/teamcity_work/6326934d18cfe24e/kotlin/libraries/kotlin.test/common/src/main/kotlin/kotlin/test/Assertions.kt:658)
+	at kotlin.test#assertTrue(/Users/teamcity1/teamcity_work/6326934d18cfe24e/kotlin/libraries/stdlib/src/kotlin/contracts/ContractBuilder.kt:38)
+	at io.github.gmvalentino.moduleA.IosGreetingTest#testExample(/Users/marcovalentino/Developer/MppSwiftPackagesExample/moduleA/src/iosTest/kotlin/io/github/gmvalentino/moduleA/iosTest.kt:10)
+	at io.github.gmvalentino.moduleA.$IosGreetingTest$test$0.$testExample$FUNCTION_REFERENCE$0.invoke#internal(/Users/marcovalentino/Developer/MppSwiftPackagesExample/moduleA/src/iosTest/kotlin/io/github/gmvalentino/moduleA/iosTest.kt:11)
+	at io.github.gmvalentino.moduleA.$IosGreetingTest$test$0.$testExample$FUNCTION_REFERENCE$0.$&lt;bridge-UNNN&gt;invoke(/Users/marcovalentino/Developer/MppSwiftPackagesExample/moduleA/src/iosTest/kotlin/io/github/gmvalentino/moduleA/iosTest.kt:11)
+	at kotlin.native.internal.test.BaseClassSuite.TestCase#run(/Users/teamcity1/teamcity_work/6326934d18cfe24e/kotlin/kotlin-native/runtime/src/main/kotlin/kotlin/native/internal/test/TestSuite.kt:85)
+	at kotlin.native.internal.test.TestRunner.run#internal(/Users/teamcity1/teamcity_work/6326934d18cfe24e/kotlin/kotlin-native/runtime/src/main/kotlin/kotlin/native/internal/test/TestRunner.kt:245)
+	at kotlin.native.internal.test.TestRunner.runIteration#internal(/Users/teamcity1/teamcity_work/6326934d18cfe24e/kotlin/kotlin-native/runtime/src/main/kotlin/kotlin/native/internal/test/TestRunner.kt:271)
+	at kotlin.native.internal.test.TestRunner#run(/Users/teamcity1/teamcity_work/6326934d18cfe24e/kotlin/kotlin-native/runtime/src/main/kotlin/kotlin/native/internal/test/TestRunner.kt:286)
+	at kotlin.native.internal.test#testLauncherEntryPoint(/Users/teamcity1/teamcity_work/6326934d18cfe24e/kotlin/kotlin-native/runtime/src/main/kotlin/kotlin/native/internal/test/Launcher.kt:30)
+	at kotlin.native.internal.test#main(/Users/teamcity1/teamcity_work/6326934d18cfe24e/kotlin/kotlin-native/runtime/src/main/kotlin/kotlin/native/internal/test/Launcher.kt:34)
+	at &lt;global&gt;.Konan_start(/Users/teamcity1/teamcity_work/6326934d18cfe24e/kotlin/kotlin-native/runtime/src/main/kotlin/kotlin/native/internal/test/Launcher.kt:33)
+	at &lt;global&gt;.Init_and_run_start(Unknown Source)
+	at &lt;global&gt;.start_sim(Unknown Source)
+	at &lt;global&gt;.0x0(Unknown Source)
+	at &lt;global&gt;.0x0(Unknown Source)
+</failure>
+  </testcase>
+  <system-out><![CDATA[Invalid connection: com.apple.coresymbolicationd
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

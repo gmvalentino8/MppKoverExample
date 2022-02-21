@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="io.github.gmvalentino8.tests.CommonTestB" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-02-20T15:35:35" hostname="LAB-N2007.toshima.ne.jp" time="0.177">
+  <properties/>
+  <testcase name="testExample" classname="io.github.gmvalentino8.tests.CommonTestB" time="0.177"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
