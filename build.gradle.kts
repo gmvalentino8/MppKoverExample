@@ -25,12 +25,12 @@ allprojects {
     }
 }
 
-kover {
-    coverageEngine.set(kotlinx.kover.api.CoverageEngine.INTELLIJ)
-    intellijEngineVersion.set("1.0.656")
-    // disabledProjects = setOf("moduleA")
+//kover {
+//    coverageEngine.set(kotlinx.kover.api.CoverageEngine.INTELLIJ)
+//    intellijEngineVersion.set("1.0.656")
+//    disabledProjects = setOf("moduleA")
+//}
 
-    tasks.withType(kotlinx.kover.tasks.KoverHtmlReportTask::class) {
-        excludes = listOf("*.tests.*", "*.BuildConfig")
-    }
+tasks.withType(kotlinx.kover.tasks.KoverMergedTask::class) {
+    excludes = listOf("*.tests.*", "*.BuildConfig")
 }

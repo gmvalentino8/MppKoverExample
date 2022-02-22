@@ -4,7 +4,7 @@
 <!DOCTYPE html>
 <html id="htmlId">
 <head>
-  <title>Coverage Report > GreetingB</title>
+  <title>Coverage Report > AndroidTestB</title>
   <style type="text/css">
     @import "../../css/coverage.css";
     @import "../../css/highlight-idea.css";
@@ -17,10 +17,10 @@
 <div class="breadCrumbs">
 Current scope:     <a href="../../index.html">all classes</a>
     <span class="separator">|</span>
-    <a href="../index.html">io.github.gmvalentino8.moduleB.greeting</a>
+    <a href="../index.html">io.github.gmvalentino8.tests</a>
 </div>
 
-<h1>Coverage Summary for Class: GreetingB (io.github.gmvalentino8.moduleB.greeting)</h1>
+<h1>Coverage Summary for Class: AndroidTestB (io.github.gmvalentino8.tests)</h1>
 
 <table class="coverageStats">
 <tr>
@@ -47,7 +47,7 @@ Current scope:     <a href="../../index.html">all classes</a>
 </th>
 </tr>
 <tr>
-  <td class="name">GreetingB</td>
+  <td class="name">AndroidTestB</td>
 <td class="coverageStat">
   <span class="percent">
     100%
@@ -90,15 +90,19 @@ Current scope:     <a href="../../index.html">all classes</a>
 
 
 <pre>
-<div class="sourceCode" id="sourceCode"><i class="no-highlight">1</i>&nbsp;package io.github.gmvalentino8.moduleB.greeting
+<div class="sourceCode" id="sourceCode"><i class="no-highlight">1</i>&nbsp;package io.github.gmvalentino8.tests
 <i class="no-highlight">2</i>&nbsp;
-<i class="no-highlight">3</i>&nbsp;import io.github.gmvalentino8.moduleB.platform.PlatformB
-<i class="no-highlight">4</i>&nbsp;
-<b class="fc"><i class="no-highlight">5</i>&nbsp;class GreetingB {</b>
-<i class="no-highlight">6</i>&nbsp;    fun greeting(): String {
-<b class="fc"><i class="no-highlight">7</i>&nbsp;        return &quot;Hello, ${PlatformB().platform}!&quot;</b>
-<i class="no-highlight">8</i>&nbsp;    }
-<i class="no-highlight">9</i>&nbsp;}
+<i class="no-highlight">3</i>&nbsp;import io.github.gmvalentino8.moduleB.GreetingB
+<i class="no-highlight">4</i>&nbsp;import org.junit.Assert.assertTrue
+<i class="no-highlight">5</i>&nbsp;import org.junit.Test
+<i class="no-highlight">6</i>&nbsp;
+<b class="fc"><i class="no-highlight">7</i>&nbsp;class AndroidTestB {</b>
+<i class="no-highlight">8</i>&nbsp;
+<i class="no-highlight">9</i>&nbsp;    @Test
+<i class="no-highlight">10</i>&nbsp;    fun testExample() {
+<b class="fc"><i class="no-highlight">11</i>&nbsp;        assertTrue(&quot;Check Android is mentioned&quot;, GreetingB().greeting().contains(&quot;Android&quot;))</b>
+<i class="no-highlight">12</i>&nbsp;    }
+<i class="no-highlight">13</i>&nbsp;}
 </div>
 </pre>
 </div>
@@ -125,7 +129,7 @@ Current scope:     <a href="../../index.html">all classes</a>
 
 <div class="footer">
     
-    <div style="float:right;">generated on 2022-02-21 00:35</div>
+    <div style="float:right;">generated on 2022-02-22 15:06</div>
 </div>
 </body>
 </html>

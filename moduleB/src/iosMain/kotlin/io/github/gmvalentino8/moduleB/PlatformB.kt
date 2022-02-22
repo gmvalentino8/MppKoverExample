@@ -1,4 +1,4 @@
-package io.github.gmvalentino8.moduleB.platform
+package io.github.gmvalentino8.moduleB
 
 import platform.UIKit.UIDevice
 

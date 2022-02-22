@@ -1,6 +1,33 @@
 <?xml version="1.0" ?>
 <report name="Intellij Coverage Report">
 <package name="io/github/gmvalentino8/moduleB">
+<class name="io/github/gmvalentino8/moduleB/PlatformB" sourcefilename="PlatformB.kt">
+<method name="&lt;init&gt;" desc="()V">
+<counter type="INSTRUCTION" missed="0" covered="10"/>
+<counter type="BRANCH" missed="0" covered="0"/>
+<counter type="LINE" missed="0" covered="2"/>
+</method>
+<counter type="INSTRUCTION" missed="0" covered="10"/>
+<counter type="BRANCH" missed="0" covered="0"/>
+<counter type="LINE" missed="0" covered="2"/>
+<counter type="METHOD" missed="0" covered="1"/>
+</class>
+<class name="io/github/gmvalentino8/moduleB/GreetingB" sourcefilename="GreetingB.kt">
+<method name="greeting" desc="()Ljava/lang/String;">
+<counter type="INSTRUCTION" missed="0" covered="13"/>
+<counter type="BRANCH" missed="0" covered="0"/>
+<counter type="LINE" missed="0" covered="1"/>
+</method>
+<method name="&lt;init&gt;" desc="()V">
+<counter type="INSTRUCTION" missed="0" covered="2"/>
+<counter type="BRANCH" missed="0" covered="0"/>
+<counter type="LINE" missed="0" covered="1"/>
+</method>
+<counter type="INSTRUCTION" missed="0" covered="15"/>
+<counter type="BRANCH" missed="0" covered="0"/>
+<counter type="LINE" missed="0" covered="2"/>
+<counter type="METHOD" missed="0" covered="2"/>
+</class>
 <class name="io/github/gmvalentino8/moduleB/BuildConfig" sourcefilename="BuildConfig.java">
 <method name="&lt;init&gt;" desc="()V">
 <counter type="INSTRUCTION" missed="2" covered="0"/>
@@ -12,30 +39,6 @@
 <counter type="LINE" missed="1" covered="0"/>
 <counter type="METHOD" missed="1" covered="0"/>
 </class>
-<sourcefile name="BuildConfig.java">
-<line nr="6" mi="2" ci="0" mb="0" cb="0"/>
-<counter type="INSTRUCTION" missed="2" covered="0"/>
-<counter type="BRANCH" missed="0" covered="0"/>
-<counter type="LINE" missed="1" covered="0"/>
-</sourcefile>
-<counter type="INSTRUCTION" missed="2" covered="0"/>
-<counter type="BRANCH" missed="0" covered="0"/>
-<counter type="LINE" missed="1" covered="0"/>
-<counter type="METHOD" missed="1" covered="0"/>
-<counter type="CLASS" missed="1" covered="0"/>
-</package>
-<package name="io/github/gmvalentino8/moduleB/platform">
-<class name="io/github/gmvalentino8/moduleB/platform/PlatformB" sourcefilename="PlatformB.kt">
-<method name="&lt;init&gt;" desc="()V">
-<counter type="INSTRUCTION" missed="0" covered="10"/>
-<counter type="BRANCH" missed="0" covered="0"/>
-<counter type="LINE" missed="0" covered="2"/>
-</method>
-<counter type="INSTRUCTION" missed="0" covered="10"/>
-<counter type="BRANCH" missed="0" covered="0"/>
-<counter type="LINE" missed="0" covered="2"/>
-<counter type="METHOD" missed="0" covered="1"/>
-</class>
 <sourcefile name="PlatformB.kt">
 <line nr="5" mi="0" ci="2" mb="0" cb="0"/>
 <line nr="6" mi="0" ci="8" mb="0" cb="0"/>
@@ -43,11 +46,24 @@
 <counter type="BRANCH" missed="0" covered="0"/>
 <counter type="LINE" missed="0" covered="2"/>
 </sourcefile>
-<counter type="INSTRUCTION" missed="0" covered="10"/>
+<sourcefile name="BuildConfig.java">
+<line nr="6" mi="2" ci="0" mb="0" cb="0"/>
+<counter type="INSTRUCTION" missed="2" covered="0"/>
+<counter type="BRANCH" missed="0" covered="0"/>
+<counter type="LINE" missed="1" covered="0"/>
+</sourcefile>
+<sourcefile name="GreetingB.kt">
+<line nr="3" mi="0" ci="2" mb="0" cb="0"/>
+<line nr="5" mi="0" ci="13" mb="0" cb="0"/>
+<counter type="INSTRUCTION" missed="0" covered="15"/>
 <counter type="BRANCH" missed="0" covered="0"/>
 <counter type="LINE" missed="0" covered="2"/>
-<counter type="METHOD" missed="0" covered="1"/>
-<counter type="CLASS" missed="0" covered="1"/>
+</sourcefile>
+<counter type="INSTRUCTION" missed="2" covered="25"/>
+<counter type="BRANCH" missed="0" covered="0"/>
+<counter type="LINE" missed="1" covered="4"/>
+<counter type="METHOD" missed="1" covered="3"/>
+<counter type="CLASS" missed="1" covered="2"/>
 </package>
 <package name="io/github/gmvalentino8/tests">
 <class name="io/github/gmvalentino8/tests/AndroidTestB" sourcefilename="AndroidTestB.kt">
@@ -101,36 +117,6 @@
 <counter type="LINE" missed="0" covered="4"/>
 <counter type="METHOD" missed="0" covered="4"/>
 <counter type="CLASS" missed="0" covered="2"/>
-</package>
-<package name="io/github/gmvalentino8/moduleB/greeting">
-<class name="io/github/gmvalentino8/moduleB/greeting/GreetingB" sourcefilename="GreetingB.kt">
-<method name="greeting" desc="()Ljava/lang/String;">
-<counter type="INSTRUCTION" missed="0" covered="13"/>
-<counter type="BRANCH" missed="0" covered="0"/>
-<counter type="LINE" missed="0" covered="1"/>
-</method>
-<method name="&lt;init&gt;" desc="()V">
-<counter type="INSTRUCTION" missed="0" covered="2"/>
-<counter type="BRANCH" missed="0" covered="0"/>
-<counter type="LINE" missed="0" covered="1"/>
-</method>
-<counter type="INSTRUCTION" missed="0" covered="15"/>
-<counter type="BRANCH" missed="0" covered="0"/>
-<counter type="LINE" missed="0" covered="2"/>
-<counter type="METHOD" missed="0" covered="2"/>
-</class>
-<sourcefile name="GreetingB.kt">
-<line nr="5" mi="0" ci="2" mb="0" cb="0"/>
-<line nr="7" mi="0" ci="13" mb="0" cb="0"/>
-<counter type="INSTRUCTION" missed="0" covered="15"/>
-<counter type="BRANCH" missed="0" covered="0"/>
-<counter type="LINE" missed="0" covered="2"/>
-</sourcefile>
-<counter type="INSTRUCTION" missed="0" covered="15"/>
-<counter type="BRANCH" missed="0" covered="0"/>
-<counter type="LINE" missed="0" covered="2"/>
-<counter type="METHOD" missed="0" covered="2"/>
-<counter type="CLASS" missed="0" covered="1"/>
 </package>
 <counter type="INSTRUCTION" missed="2" covered="55"/>
 <counter type="BRANCH" missed="0" covered="0"/>
